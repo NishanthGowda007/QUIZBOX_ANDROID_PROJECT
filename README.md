@@ -26,23 +26,23 @@
 ---
 
 ## 📁 Project Structure
-QUIZBOX_ANDROID_PROJECT/
-├── app/
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/com/example/quizapp/
-│ │ │ │ ├── MainActivity.java
-│ │ │ │ ├── QuizActivity.java
-│ │ │ │ └── ResultActivity.java
-│ │ │ └── res/
-│ │ │ ├── layout/
-│ │ │ │ ├── activity_main.xml
-│ │ │ │ ├── activity_quiz.xml
-│ │ │ │ └── activity_result.xml
-│ │ │ └── values/
-│ │ │ └── strings.xml
-│ └── AndroidManifest.xml
-└── build.gradle
+
+- **QUIZBOX_ANDROID_PROJECT/**
+  - **app/**
+    - **src/main/**
+      - **java/com/example/quizapp/**
+        - MainActivity.java  
+        - QuizActivity.java  
+        - ResultActivity.java  
+      - **res/layout/**
+        - activity_main.xml  
+        - activity_quiz.xml  
+        - activity_result.xml  
+      - **res/values/**
+        - strings.xml
+    - AndroidManifest.xml
+  - build.gradle
+
 
 ## ▶️ How to Run
 
